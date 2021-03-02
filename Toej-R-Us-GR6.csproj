@@ -5,4 +5,12 @@
     <RootNamespace>Toej_R_Us_GR6</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.3" />
+  </ItemGroup>
+
 </Project>
